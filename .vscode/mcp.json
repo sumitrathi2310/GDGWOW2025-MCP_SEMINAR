@@ -1,0 +1,18 @@
+{
+    "servers": {
+        "my-mcp-server-8fcd169c": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@nickclyde/duckduckgo-mcp-server",
+                "--client",
+                "vscode",
+                "--key",
+                "6b6e9987-f2af-4ba8-bd33-fab03a9cccb1"
+            ]
+        }
+    }
+}
